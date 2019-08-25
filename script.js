@@ -1,3 +1,4 @@
+// let obj = new Object() — НЕПРАВИЛЬНО
 
 let object = {
     width: 1366,
@@ -7,17 +8,11 @@ let object = {
 };
 
 console.log(object.name);
-object.boolean = true;
+options.boolean = false;
 
 object.options = {
     border: "20px",
     color: "red"
 };
 
-delete object.boolean;
-
 console.log(object);
-
-for (let key in object) {
-    console.log("Свойства " + key + " имеет значение " + object[key]);
-}
