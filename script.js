@@ -15,4 +15,6 @@ object.options = {
     color: "red"
 };
 
+delete object.boolean;
+
 console.log(object);
