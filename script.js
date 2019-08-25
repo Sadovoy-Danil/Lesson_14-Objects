@@ -18,3 +18,7 @@ object.options = {
 delete object.boolean;
 
 console.log(object);
+
+for (let key in object) {
+    console.log('Свойство ' + key + ' имеет значение ' + object[key]);
+}
